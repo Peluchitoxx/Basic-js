@@ -38,16 +38,15 @@ ul {
 }
 
 .logo-image {
-    width: 100px;
     height: 90px;
 }
 .cart-icon {
-    width: 30px; 
+    padding-top: 45px;
     height: 30px; 
 }
 
 #hero {
-    background-image:url(../img/hero.jpg);
+    background-image:url();
     height: 350px;
     background-size: cover;
 }
@@ -110,13 +109,12 @@ ul {
 
 .barra {
     padding: 20px 0;
-    background: #741d51; /* Old browsers */
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+    background: #87CEEB; /* Cielo azul claro */
+    background: -moz-linear-gradient(left, #87CEEB 0%, #AFEEEE 100%); 
+    background: -webkit-linear-gradient(left, #87CEEB 0%,#AFEEEE 100%); 
+    background: linear-gradient(to right, #87CEEB 0%,#AFEEEE 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87CEEB', endColorstr='#AFEEEE',GradientType=1 ); 
 }
-
 .barra p {
     margin:0;
     color: white;
@@ -134,15 +132,7 @@ ul {
         margin-bottom:0;
     }
 }
-.icono1 {
-    background-image: url(../img/icono1.png);
-}
-.icono2 {
-    background-image: url(../img/icono2.png);
-}
-.icono3 {
-    background-image: url(../img/icono3.png);
-}
+
 
 #lista-cursos .row {
     margin-bottom:20px;
